@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.header,
+.head {
+    color: black;
+    background-color: red;
+    font-family: 'Cormorant Unicase', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.reznor {
+    display: flex;
+    justify-content: center;
+}
+
+.trent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trent img {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    padding: 10px;
+}
